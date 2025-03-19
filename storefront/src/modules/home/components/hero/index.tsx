@@ -1,6 +1,7 @@
 "use client"
 
 import { Github } from "@medusajs/icons"
+import { Google } from "@medusajs/icons"
 import { Heading } from "@medusajs/ui"
 import Button from "@modules/common/components/button"
 import Image from "next/image"
@@ -37,8 +38,8 @@ const Hero = () => {
           target="_blank"
         >
           <Button variant="secondary" className="rounded-2xl">
-            <Github />
-            Github Repository
+            <Google />
+            Amavinsoft Website
           </Button>
         </a>
       </div>
